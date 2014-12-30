@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.row{
+max-width:1440px;	
+}
+
+.black {
+background-color:black;
+}
+
+.yellow{
+background-color:#ffcc00;	
+}
+
+.sub-nav{
+height:50px;
+}
+
+.sub-nav dd{
+padding-top:9px;
+height:35px;
+}
+
+.sub-nav dd a {
+color:white;
+font-family: 'Oswald', sans-serif;
+font-size:18px;
+}
+
+.sub-nav dd:active a {
+color:#ffcc00;
+}
+
+.sub-nav dd:hover a {
+color:#ff0000;
+}
+
+.socialbutton{
+float:right;
+padding-top:4px;
+margin-right:30px;
+}
+
+.socialbutton img{
+height:38px;
+width:67px;
+}
+
+.logo img{
+width:578px;
+padding-left:15px;
+}
+
+.phone{
+height:112px;
+padding-top:25px;
+}
+
+.phone a{
+font-family: 'Lato', sans-serif;
+font-weight:bold;
+font-size:36px;
+color:#ff0000;
+}
+
+.address{
+margin-top:-5px;
+color:black;
+}
+
+.address p{
+font-family: 'Lato', sans-serif;
+font-size:17px;
+padding-left:25px;
+margin-bottom:0;
+}
+
+.specials p{
+padding-left:30px;
+padding-top:10px;
+padding-right:20px;
+}
+
+.subhead{
+font-family: 'Oswald', sans-serif;
+font-weight:300;
+font-size:26px;
+color:#ffcc00;
+}
+
+.specials .white{
+font-family: 'Lato', sans-serif;
+font-size:17px;
+}
+
+.white{
+color:white;
+}
+
+.footer-subheads{
+font-family: 'Oswald', sans-serif;
+font-weight:bold;
+font-size:41px;
+}
+
+.footer-text{
+font-family: 'Lato', sans-serif;
+font-size:19px;	
+margin-bottom:0;
+}
+
+.copyright p{
+font-size:13px;	
+font-family: 'Lato', sans-serif;
+margin-bottom:0;
+text-align:center;
+padding:0;
+}
+
+.bottom-margin{
+margin-bottom:1.75rem;	
+}
+
+.tab-bar{
+background-color:black;	
+margin-bottom:40px;
+height:50px;
+}
+
+.inner-wrap{
+height:288px;	
+}
+
+.cleartoppadding{
+padding-top:0;
+}
+
+.clearpadding{
+padding:0;	
+}
+
+.main-section{
+position:absolute;
+top:55px;
+width:100%;
+}
+
+.tab-bar-section.middle{
+right:.5rem;	
+}
+
+.left-off-canvas-menu{
+background-color:black;
+color:white;
+}
+
+.monthlyimage img{
+widht:100%;
+}
+
+.parts-subhead{
+font-family: 'Oswald', sans-serif;
+font-weight:bold;
+color:#ff0000;
+font-size:55px;
+}
+
+.parts-text{
+font-family: 'Lato', sans-serif;
+font-size:19px;	
+color:black;	
+max-width:600px;
+}
+
+h1{
+font-family: 'Oswald', sans-serif;
+font-weight:bold;
+color:#ff0000;
+font-size:75px;	
+padding-left:15px;
+padding-top:20px;
+}
+
+.icons{
+padding-left:30px;	
+padding-right:30px;
+margin-bottom:50px;
+}
+
+.icons img{
+height:111px;	
+padding-left:35%;
+margin-bottom:40px;
+}
+
+.most-important-small-text{
+font-family: 'Oswald', sans-serif;
+font-weight:300;
+font-size:74px;
+color:#ff0000;
+text-align:center;
+margin-top:203px;
+}
+	
+.most-important-large-text{
+font-family: 'Oswald', sans-serif;
+font-weight:bold;
+font-size:160px;
+color:#ff0000;
+text-align:center;
+margin-top:-50px;
+margin-bottom:203px;
+}
+
+@media only screen and (max-width:1024px) {
+
+h1{
+text-align:center;
+padding-left:0px;	
+}
+
+.heart img{
+padding-left:43%;	
+}
+
+.logo img{
+width:100%;
+}
+
+.sub-nav dd a {
+padding-right:0;
+padding-left:10px;
+}
+	
+.socialbutton{
+margin-right:10px;	
+}
+
+.socialbutton img{
+width:47px;	
+}
+
+.phone a{
+padding-left:20px;
+font-size:46px;
+}
+
+.most-important-small-text{
+font-size:47px;
+}
+	
+.most-important-large-text{
+font-size:100px;
+}
+	
+}
+
+@media only screen and (max-width:660px) {
+
+.socialbutton img{
+width:37px;	
+}	
+
+}
+
+@media only screen and (max-width:640px) {
+	
+.socialbutton{
+padding-top:0px;
+margin-right:0px;
+}
+
+.socialbutton img{
+height:38px;
+width:67px;
+}
+
+.logo img{
+width:100%;
+}
+
+.phone{
+padding-top:40px;
+}
+
+.phone a{
+font-size:2.25rem;
+}
+
+.address p{
+font-size:16px;
+padding-left:0px;
+}
+		
+.heart img{
+padding-left:25%;	
+}
+
+.most-important-small-text{
+font-size:22px;
+}
+	
+.most-important-large-text{
+font-size:48px;
+margin-top:-25px;
+}
+
+}
+
+@media only screen and (max-width:493px) {
+
+.phone a{
+font-size:1.5rem;
+}
+
+.address p{
+font-size:14px;
+padding-left:0px;
+}
+		
+}
+
+@media only screen and (max-width:355px) {
+
+.footer-subheads{
+font-size:36px;
+}
+
+.phone a{
+font-size:1.25rem;
+}
+
+.address p{
+font-size:13px;
+}
+		
+}
