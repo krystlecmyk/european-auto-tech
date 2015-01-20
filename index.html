@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/foundation.css" />
     <link rel="stylesheet" href="styles/custom.css"/>
     <link rel="stylesheet" href="styles/style-form.css"/>
+    <link rel="stylesheet" href="slick/slick.css"/>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
     <script src="scripts/vendor/modernizr.js"></script>
@@ -23,6 +24,7 @@
                 <dd data-magellan-arrival="reviews"><a href="#reviews">Reviews</a></dd> 
                 <dd data-magellan-arrival="appointment"><a href="#appointment">Appointment</a></dd>
                 <dd data-magellan-arrival="gallery"><a href="#gallery">Gallery</a></dd> 
+                <dd data-magellan-arrival="parts"><a href="#parts">Parts</a></dd>
                 <div class="socialbutton">
                 	<a href="https://www.facebook.com/pages/European-Auto-Tech/427951353915265"><img src="images/button-facebook.svg" alt="facebook"/></a>
                     <a href="#footer"><img src="images/button-email.svg" alt="email"/></a>
@@ -71,6 +73,7 @@
                 				<li><a href="#reviews">Reviews</a></li>
                 				<li><a href="#appointment">Appointment</a></li>
                 				<li><a href="#gallery">Gallery</a> </li> 
+                                <li><a href="#parts">Parts</a> </li>
                             </ul>
                         </aside> 
                         
@@ -140,12 +143,36 @@
     </div>
     
     
+    <div class="row yellow">
+    <a id="reviews"></a>
+   		<div class="large columns">
+            <div class="large-6 medium-6 small-12 columns">
+            	<p class="review-subhead">Customer Reviews</p>
+                <div class="single-item responsive">
+                    <div>
+                        <p class="review-text">"My family and I have had all our BMWs (1998 E36 M3, 2003 E46 M3, 2008 E63 M6) serviced at European Auto Tech. Ben is knowledgeable and honest, I know I can trust his recommendations for service. He and his staff pay attention to details and get jobs done correctly. Service at European Auto Tech has always exceeded my expectations and makes the short drive from Omaha well worth the effort. I recommend European Auto Tech highly."</p>
+                        <p class="review-name">Ken Follett</p>
+                        <p class="review-name">2008 BMW M6</p>
+                    </div>
+                    <div>
+                        <p class="review-text">"European Auto Tech is the only place I will take my car in Lincoln for service. The owner Ben is very knowledgeable and will answer any questions you have. The facility is very nice and the staff are pleasant. I highly recommend taking your BMW or any other car here."</p>
+                        <p class="review-name">Garry</p>
+                        <p class="review-name">2005 BMW 330i</p>
+                    </div>
+                  </div>
+                <input id="review-more" name"submit" type="submit" value="">
+             			
+            </div>
+        </div>
+    </div>
+    
     
     
     
     
     
    <div class="row yellow">
+   	<a id="parts"></a>
    		<div class="large columns">
             <div class="large-6 medium-6 small-12 columns">
                 <p class="parts-subhead">Order Parts</p>
@@ -172,7 +199,7 @@
                         <label>Parts to order</label>
                         <textarea name="message" placeholder="What are you planning on doing?"></textarea>
                             
-                        <label>*What is 2+2? (Anti-spam)</label>
+                        <label>*What is 1+2? (Anti-spam)</label>
                         <input name="human" placeholder="Type Here">
                             
                         <input id="order-submit" name"submit" type="submit" value="">
@@ -234,6 +261,7 @@
     <script src="scripts/foundation.min.js"></script>
     <script src="scripts/foundation/foundation.offcanvas.js"></script>
     <script src="scripts/foundation/foundation.magellan.js"></script>
+    <script src="slick/slick.js"></script>
     <script>
       $(document).foundation();
     </script>
@@ -247,5 +275,47 @@
    				 console.log('valid!');
  			 });   
  	 </script>
+     <script>
+		$('.single-item').slick({
+			rtl: true
+		});
+	</script>
+    <script>
+			$('.responsive').slick({
+	  dots: true,
+	  infinite: false,
+	  speed: 300,
+	  slidesToShow: 4,
+	  slidesToScroll: 4,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		}
+	  ]
+	});
+	</script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#featured-slider{
+  width: 644px;
+  height: 244px;
+  margin: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+#slider{
+  width: 7084px;
+  height: 244px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+}
+
+#slider .slide{
+  width: 644px;
+  height: 244px;
+  float: left;
+  position: relative;
+}
+
+.slide h2{
+  background:url(http://depo.webogrencisi.com/jqueryslider/images/titlebg.png);
+  width:406px;
+  height:27px;
+  padding-top:3px;
+  text-align:center;
+  position:absolute;
+  left:10px;
+  top: 10px;
+  font: 18px 'Trebuchet MS';
+  color: #fff;
+}
+
+#sayfalama{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  z-index: 10;
+}
+
+#sayfalama a{
+  background: url(http://depo.webogrencisi.com/jqueryslider/images/link.png);
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+#sayfalama a span{
+  display: none;
+  color: black;
+}
+
+.prev {
+  color: red;
+  display: inline-block;
+  left: 20px;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+.next {
+  color: red;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  z-index: 10;
+}
