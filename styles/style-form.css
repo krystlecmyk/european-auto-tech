@@ -39,6 +39,22 @@ cursor:all-scroll;
 opacity:.9;
 }
 
+#appointment-submit {
+display:block;
+margin-left:315px;
+width:121px;
+height:34px;
+background-image:url(../images/button-appointment-submit-yellow.svg);
+background-repeat:none;
+border:none;
+margin-top:20px;
+cursor:all-scroll;
+}
+
+#appointment-submit:hover {
+opacity:.9;
+}
+
 #order-submit {
 display:block;
 margin-left:315px;
@@ -62,6 +78,10 @@ width:280px;
 }
 
 #contact-submit {
+margin-left:160px;	
+}
+
+#appointment-submit {
 margin-left:160px;	
 }
 
