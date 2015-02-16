@@ -31,7 +31,7 @@
                 </div>
             </dl> 
          </div>
-         <div class="row">
+         <div class="row nobottompadding">
     	<a id="home"></a>
       	<div class="large-6 medium-12 columns logo">
            	<img src="images/logo.svg" alt="european auto tech logo"/>
@@ -104,8 +104,8 @@
     <div class="row cleartoppadding monthlyimage">
     	<strong class="show-for-small-only"><img src="images/img-monthly-specials-front-room-large.jpg"/></strong>
         <div class="large-5 medium-6 small-12 columns specials black right end">
-        	<p class="subhead"> Monthly Specials </p>
-            <p class="white">Coolant Flush  $79.99 </p>
+        	<p class="subhead">Monthly Specials</p>
+            <p class="white">Coolant Flush  $79.99</p>
 			<p class="white">BG Fuel Injection Service $114.99</p>
 			<p class="white">Air Conditioning Service $89.99(most vehicles)</p>
 			<p class="white">Add BG motor oil addative to your next oil change for only $10.00</p>
@@ -146,14 +146,25 @@
             <div class="large-12 medium-12 small-12 columns appointment-text">
                 <p class="dealer-subhead">Authorized Dealer</p>
             </div>
+            <div class="large-3 medium-4 small-12 columns dinan">
+                <a href="http://www.dinancars.com/"><img src="images/logo-dinan.svg" alt="dinan auto parts"/></a>
+            </div>
+            <div class="large-5 medium-4 small-12 columns bg">
+                <a href="https://www.bgprod.com/"><img src="images/logo-bg.png" alt="bg products auto parts"/></a>
+            </div>
+            <div class="large-4 medium-4 small-12 columns">
+                <a href="http://www.griotsgarage.com/"><img src="images/logo-griots.svg" alt="griots garage auto parts"/></a>
+            </div>
         </div>
      </div>
     
     <div class="row yellow">
     <a id="reviews"></a>
    		<div class="large columns">
-            <div class="large-6 medium-6 small-12 columns">
+        	<div class="large-12 medium-12 small-12 columns appointment-text">
             	<p class="review-subhead">Customer Reviews</p>
+            </div>
+            <div class="large-6 medium-6 small-12 columns end">
                 <div class="fade">
                     <div>
                         <p class="review-text">"My family and I have had all our BMWs (1998 E36 M3, 2003 E46 M3, 2008 E63 M6) serviced at European Auto Tech. Ben is knowledgeable and honest, I know I can trust his recommendations for service. He and his staff pay attention to details and get jobs done correctly. Service at European Auto Tech has always exceeded my expectations and makes the short drive from Omaha well worth the effort. I recommend European Auto Tech highly."</p>
@@ -247,6 +258,11 @@
    		<div class="large columns">
             <div class="large-12 medium-12 small-12 columns appointment-text">
                 <p class="appointment-subhead">Schedule Appointment</p>
+            </div>
+            <div class="large-7 medium-7 small-12 columns no-padding">
+            	<img src="images/img-schedule-appointment-car.jpg" alt="maserati in front of european auto tech"/>
+            </div>
+            <div class="large-5 medium-5 small-12 columns">
                     <form method="post" action="php/appointment-form.php">
             
                         <label>Name</label>
@@ -267,7 +283,7 @@
                         <label>How Can We Help?</label>
                         <textarea name="message" placeholder="How can we help you?"></textarea>
                             
-                        <label>*What is 3+3? (Anti-spam)</label>
+                        <label>*What is 2+2? (Anti-spam)</label>
                         <input name="human" placeholder="Type Here">
                             
                         <input id="appointment-submit" name="appointment-submit" type="submit" value="">
@@ -280,10 +296,12 @@
    <div class="row yellow">
    	<a id="parts"></a>
    		<div class="large columns">
+        	<div class="large-12 medium-12 small-12 columns appointment-text">
+           	 	<p class="parts-subhead">Order Parts</p>
+            </div>
             <div class="large-6 medium-6 small-12 columns">
-                <p class="parts-subhead">Order Parts</p>
-                <p class="parts-text">Like to do your own maintenance at home? We understand and would love to help you get the parts you want. Let us know what you're thinking of doing and we will make sure you get the right parts and even the ones you might not know you need to do it. </p>
-                <img src="images/img-parts-order-parts-large.jpg"/>
+            	<p class="parts-text">Like to do your own maintenance at home? We understand and would love to help you get the parts you want. Let us know what you're thinking of doing and we will make sure you get the right parts and even the ones you might not know you need to do it. </p>
+               	<img src="images/img-parts-order-parts-large.jpg"/>
             </div>
             <div class="large-6 medium-6 small-12 columns">
                     <form method="post" action="php/order-form.php">
@@ -306,7 +324,7 @@
                         <label>Parts to order</label>
                         <textarea name="message" placeholder="What are you planning on doing?"></textarea>
                             
-                        <label>*What is 1+2? (Anti-spam)</label>
+                        <label>*What is 2+2? (Anti-spam)</label>
                         <input name="human" placeholder="Type Here">
                             
                         <input id="order-submit" name="order-submit" type="submit" value="">
