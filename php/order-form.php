@@ -20,13 +20,13 @@
 			
     $body = "From: $name\n Phone: $phone\n Vin: $vin\n E-Mail: $email\n Vehicle: $vehicle\n Message:\n $message";
 				
-    if ($_POST['order-submit'] && $human == '3') {				 
+    if ($_POST['order-submit'] && $human == '4') {				 
         if (mail ($to, $subject, $body, $from)) { 
 	    echo '<p>Your message has been sent!</p>';
 	} else { 
 	    echo '<p>Something went wrong, go back and try again!</p>'; 
 	} 
-    } else if ($_POST['order-submit'] && $human != '3') {
+    } else if ($_POST['order-submit'] && $human != '4') {
 	echo '<p>You answered the anti-spam question incorrectly!</p>';
     }
 ?>

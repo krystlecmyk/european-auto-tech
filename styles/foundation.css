@@ -2733,7 +2733,6 @@ blockquote p {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
   color: #FFFFFF;
   height: 2.8125rem;
   line-height: 2.8125rem;
