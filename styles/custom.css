@@ -11,16 +11,47 @@ width:100%;
 z-index:1;
 }
 
-.slick-dots li button{
-margin-top:-40px;	
+.tabs {
+margin-left: 25px;
 }
 
-.fade ul{
-margin:-20px;	
+.tab-title{
+width: 170px;
 }
 
-.fade{
-margin-left:15px;	
+.tabs dd.active a, .tabs .tab-title.active a {
+background-image:url(../images/tab-yellow-active.svg);
+background-repeat:none;	
+color:black;
+text-align:center;
+}
+
+.tabs dd > a, .tabs .tab-title > a {
+background-image:url(../images/tab-red-inactive.svg);
+background-repeat:none;	
+color:white;
+text-align:center;	
+}
+
+.tabs dd > a, .tabs .tab-title > a {
+color:white;
+font-family: 'Oswald', sans-serif;
+font-size:20px;
+}
+
+.variable-width{
+margin-left:15px;
+margin-top:-5px;
+}
+
+.slick-slide img{
+max-width:1100px;
+padding-right: 25px;
+}
+
+ul.slick-dots{
+margin-left:0;
+margin-bottom:0;
 }
 
 ul.off-canvas-list li a{
@@ -178,6 +209,18 @@ text-align:center;
 padding:0;
 }
 
+.employee-name{
+font-family: 'Oswald', sans-serif;
+font-weight:bold;	
+font-size:24px;
+margin-bottom:0;
+}
+
+.employee-title{
+font-family: 'Oswald', sans-serif;
+font-weight:300;	
+}
+
 .most-important-small-text{
 font-family: 'Oswald', sans-serif;
 font-weight:300;
@@ -202,11 +245,14 @@ color:#ffcc00;
 font-family: 'Oswald', sans-serif;
 font-weight:bold;
 font-size:55px;
+margin-bottom:0;
 }
 
 .appointment-text{
 color:white;
 padding-top:15px;
+font-family: 'Lato', sans-serif;
+font-size:19px;	
 }
 
 .parts-text{
@@ -235,7 +281,7 @@ margin-bottom:1.75rem;
 padding-top:0;
 }
 
-.left-padding{
+.order-form-padding{
 padding-left:50px;
 }
 
@@ -250,15 +296,16 @@ margin-top:30px;
 /*********** customer review ***********/
 .review-text{
 font-family: 'Lato', sans-serif;
-font-size:15px;
+font-size:17px;
 font-weight:bold;
-max-width:600px;
+max-width:580px;
+height:auto;
 }
 
 .review-name{
 font-family: 'Lato', sans-serif;
-font-size:16px;
-font-weight:bold;
+font-size:15px;
+font-weight:600;
 margin-bottom:0;
 }
 
@@ -291,21 +338,17 @@ opacity:.9;
 .icons{
 padding-left:30px;	
 padding-right:30px;
-margin-bottom:50px;
 }
 
-.dinan{
-padding-top:75px;	
+.team-pics img, .team-pics p{
+padding-left:15px;
+padding-right:15px;
 }
 
 .icons img{
 height:111px;	
 padding-left:35%;
 margin-bottom:40px;
-}
-
-.bg{
-margin-top:50px;	
 }
 
 .main-section{
@@ -404,6 +447,10 @@ margin-right:0px;
 .socialbutton img{
 height:38px;
 width:67px;
+}
+
+.order-form-padding{
+padding-left:15px;
 }
 
 .logo img{

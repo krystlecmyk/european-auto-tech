@@ -15,7 +15,7 @@
   
   <body>
      <header>
-     	<strong class="hide-for-small-only">
+     	<div class="hide-for-small-only">
          <div data-magellan-expedition="fixed"> 
             <dl class="sub-nav"> 
                 <dd data-magellan-arrival="home"><a href="#home">Home</a></dd> 
@@ -32,24 +32,25 @@
             </dl> 
          </div>
          <div class="row no-bottom-padding">
-    	<a id="home"></a>
-      	<div class="large-6 medium-12 columns logo">
-           	<img src="images/logo.svg" alt="european auto tech logo"/>
-        </div>
-        <div class="large-3 medium-7 columns phone">
-        	<a href="tel:4024650330">402.465.0330</a>
-        </div>
-        <div class="large-3 medium-5 columns address">
-        	<p>European Auto Tech</p>
-			<p>4920 N 57th St Suite A</p>
-			<p>Lincoln, NE 68507</p>
-            <p>Hours: M-F 8am-5pm</p>
-        </div>
-      </strong>
+    		<a id="home"></a>
+            <div class="large-6 medium-12 columns logo">
+                <img src="images/logo.svg" alt="european auto tech logo"/>
+            </div>
+            <div class="large-3 medium-7 columns phone">
+                <a href="tel:4024650330">402.465.0330</a>
+            </div>
+            <div class="large-3 medium-5 columns address">
+                <p>European Auto Tech</p>
+                <p>4920 N 57th St Suite A</p>
+                <p>Lincoln, NE 68507</p>
+                <p>Hours: M-F 8am-5pm</p>
+            </div>
+          </div>
+      </div>
    </header>
      
      <div class="smallheader">
-         <strong class="show-for-small-only">
+         <div class="show-for-small-only">
          	<div class="off-canvas-wrap" data-offcanvas> 
             	<div class="inner-wrap"> 
                 	<nav class="tab-bar"> 
@@ -67,7 +68,7 @@
                         
                         <aside class="left-off-canvas-menu"> 
                         	<ul class="off-canvas-list"> 
-                            	<li><a href="#home">Home</a></li>
+                            	<li><a href="#homesmall">Home</a></li>
                 				<li><a href="#about">About</a></li>
                 				<li><a href="#dealer">Dealer</a></li>
                 				<li><a href="#reviews">Reviews</a></li>
@@ -79,7 +80,7 @@
                         
                         <section class="main-section">
                             <div class="row">
-    							<a id="home"></a>
+    							<a id="homesmall"></a>
       							<div class="small-12 columns logo">
            							<img src="images/logo.svg" alt="european auto tech logo"/>
        							 </div>
@@ -97,12 +98,12 @@
                     <a class="exit-off-canvas"></a> 
                </div> 
            </div>
-    	</strong>
+    	</div>
     </div>
 
         
     <div class="row clear-top-padding monthlyimage">
-    	<strong class="show-for-small-only"><img src="images/img-monthly-specials-front-room-large.jpg"/></strong>
+    	<strong class="show-for-small-only"><img src="images/img-monthly-specials-front-room-large.jpg" alt="front room of auto repair shop"/></strong>
         <div class="large-6 medium-7 small-12 columns specials black right end">
         	<p class="subhead">Monthly Special Coupons</p>
             <p class="white">15% Off entire service bill for new clients first visit</p>
@@ -114,7 +115,7 @@
     </div>
         
         
-    <div class="row yellow">
+    <div class="row yellow no-bottom-padding">
     <a id="about"></a>
       <div class="large columns">
     	<h1>About Us</h1>
@@ -137,20 +138,20 @@
     	<div class="large columns">
     		<h1>Our Team</h1>
       	</div>
-		<div class="large-4 medium-4 small-12 columns">
+		<div class="large-4 medium-4 small-12 columns team-pics">
         	<img src="images/img-ben.jpg" alt="ben kerwood owner and a master technician of european automobiles"/>	
-        	<p>Ben Kerwood</p>
-            <p>Owner Master Technician</p>
+        	<p class="employee-name">Ben Kerwood</p>
+            <p class="employee-title">Owner Master Technician</p>
         </div>
-        <div class="large-4 medium-4 small-12 columns">
+        <div class="large-4 medium-4 small-12 columns team-pics">
         	<img src="images/img-cory.jpg" alt="cory wheeler service manager technician of european automobiles"/>
-        	<p>Cory Wheeler</p>
-			<p>Service Manager</p>
+        	<p class="employee-name">Cory Wheeler</p>
+			<p class="employee-title">Service Manager</p>
         </div>
-        <div class="large-4 medium-4 small-12 columns">
+        <div class="large-4 medium-4 small-12 columns team-pics">
         	<img src="images/img-shelly.jpg" alt="shelly gauthier office manager"/>
-        	<p>Shelly Gauthier</p>
-			<p>Office Manager</p>
+        	<p class="employee-name">Shelly Gauthier</p>
+			<p class="employee-title">Office Manager</p>
         </div>
     </div>
     
@@ -167,10 +168,10 @@
             <div class="large-12 medium-12 small-12 columns appointment-text">
                 <p class="dealer-subhead">Authorized Dealer</p>
             </div>
-            <div class="large-3 medium-4 small-12 columns dinan">
+            <div class="large-3 medium-4 small-12 columns">
                 <a href="http://www.dinancars.com/"><img src="images/logo-dinan.svg" alt="dinan auto parts"/></a>
             </div>
-            <div class="large-5 medium-4 small-12 columns bg">
+            <div class="large-5 medium-4 small-12 columns">
                 <a href="https://www.bgprod.com/"><img src="images/logo-bg.png" alt="bg products auto parts"/></a>
             </div>
             <div class="large-4 medium-4 small-12 columns">
@@ -186,7 +187,7 @@
             	<p class="review-subhead">Customer Reviews</p>
             </div>
             <div class="large-6 medium-6 small-12 columns">
-                <div class="fade">
+                <div class="one-time">
                     <div>
                         <p class="review-text">"My family and I have had all our BMWs (1998 E36 M3, 2003 E46 M3, 2008 E63 M6) serviced at European Auto Tech. Ben is knowledgeable and honest, I know I can trust his recommendations for service. He and his staff pay attention to details and get jobs done correctly. Service at European Auto Tech has always exceeded my expectations and makes the short drive from Omaha well worth the effort. I recommend European Auto Tech highly."</p>
                         <p class="review-name">Ken Follett</p>
@@ -316,7 +317,49 @@
                      </form>
              </div>
          </div>
-   </div>  
+   </div> 
+   
+   <div class="row black">
+   	<a id="gallery"></a>
+    	<div class="large columns">
+            <div class="large-12 medium-12 small-12 columns">
+            	<ul class="tabs" data-tab> 
+                	<li class="tab-title active"><a href="#panel1">BMW</a></li> 
+                    <li class="tab-title"><a href="#panel2">MINI</a></li> 
+                    <li class="tab-title"><a href="#panel3">Mercedes</a></li> 
+                    <li class="tab-title"><a href="#panel4">Exotics</a></li>
+                    <li class="tab-title"><a href="#panel5">The Shop</a></li> 
+                </ul> 
+                <div class="tabs-content"> 
+                	<div class="content active" id="panel1"> 
+                    	<div class="variable-width">
+                            <div>
+                                <img src="images/gallery-bmw-black.jpg" alt="black bmw with dinan modifications"/>
+                            </div>
+                            <div>
+                                <img src="images/gallery-bmw-blue.jpg" alt="blue bmw that had repair work done"/>
+                            </div>
+                            <div>
+                                <img src="images/gallery-bmw-i8.jpg" alt="bmw i8 series at dealership"/>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="content" id="panel2"> 
+                     	<p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p> 
+                     </div> 
+                     <div class="content" id="panel3"> 
+                     	<p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p> 
+                     </div> 
+                     <div class="content" id="panel4"> 
+                     	<p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p> 
+                     </div> 
+                     <div class="content" id="panel5"> 
+                     	<p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p> 
+                     </div> 
+             	</div> 
+            </div>
+        </div>
+   </div>
     
    <div class="row yellow">
    	<a id="parts"></a>
@@ -326,9 +369,9 @@
             </div>
             <div class="large-6 medium-6 small-12 columns">
             	<p class="parts-text">Like to do your own maintenance at home? We understand and would love to help you get the parts you want. Let us know what you're thinking of doing and we will make sure you get the right parts and even the ones you might not know you need to do it. </p>
-               	<img src="images/img-parts-order-parts-large.jpg"/>
+               	<img src="images/img-parts-order-parts-large.jpg" alt="exposed wheel during auto repair"/>
             </div>
-            <div class="large-6 medium-6 small-12 columns left-padding">
+            <div class="large-6 medium-6 small-12 columns order-form-padding">
                     <form method="post" action="php/order-form.php">
             
                         <label>Name</label>
@@ -368,15 +411,15 @@
                 <p class="footer-text">Lincoln, NE 68507</p>
                 <p class="footer-text bottom-margin">Hours: M-F 8am-5pm</p>
                	<strong class="show-for-large-up">
-                	 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24137.463637300858!2d-96.657687!3d40.867859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf5aeb8a7bf40563!2sEuropean+Auto+Tech!5e0!3m2!1sen!2sus!4v1419809701676" width="400" height="300" frameborder="0" style="border:0">
+                	 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24137.463637300858!2d-96.657687!3d40.867859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf5aeb8a7bf40563!2sEuropean+Auto+Tech!5e0!3m2!1sen!2sus!4v1419809701676" width="400" height="300" style="border:0">
                      </iframe>
                 </strong>
                 <strong class="show-for-medium-only">
-                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6034.860569918966!2d-96.64371226520821!3d40.86243046548023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796bb934cf9a4b5%3A0xbf5aeb8a7bf40563!2sEuropean+Auto+Tech!5e0!3m2!1sen!2sus!4v1419902768471" width="300" height="300" frameborder="0" style="border:0">
+                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6034.860569918966!2d-96.64371226520821!3d40.86243046548023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796bb934cf9a4b5%3A0xbf5aeb8a7bf40563!2sEuropean+Auto+Tech!5e0!3m2!1sen!2sus!4v1419902768471" width="300" height="300" style="border:0">
                     </iframe>
                 </strong>
                 <strong class="show-for-small-only">
-                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6034.860569918966!2d-96.64371226520821!3d40.86243046548023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796bb934cf9a4b5%3A0xbf5aeb8a7bf40563!2sEuropean+Auto+Tech!5e0!3m2!1sen!2sus!4v1419902768471" width="275" height="400" frameborder="0" style="border:0">
+                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6034.860569918966!2d-96.64371226520821!3d40.86243046548023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796bb934cf9a4b5%3A0xbf5aeb8a7bf40563!2sEuropean+Auto+Tech!5e0!3m2!1sen!2sus!4v1419902768471" width="275" height="400" style="border:0">
                     </iframe>
                 </strong>
              </div> 	
@@ -413,6 +456,7 @@
     <script src="scripts/foundation.min.js"></script>
     <script src="scripts/foundation/foundation.js"></script>
     <script src="scripts/foundation/foundation.offcanvas.js"></script>
+    <script src="scripts/foundation/foundation.tab.js"></script>
     <script src="scripts/foundation/foundation.magellan.js"></script>
     <script src="slick/slick.js"></script>
     <script>
@@ -430,15 +474,26 @@
  	 </script>
 	<script>
       $(document).ready(function(){
-        $('.fade').slick({
+        $('.one-time').slick({
 		  dots: true,
 		  infinite: true,
-		  speed: 500,
-		  fade: true,
-		  slide: 'div',
-		  cssEase: 'linear'
+		  speed: 300,
+		  slidesToShow: 1,
+		  adaptiveHeight: true
 		});
 	 });
+	</script>
+    <script>	
+		$(document).ready(function(){
+			$('.variable-width').slick({
+			  dots: true,
+			  infinite: true,
+			  speed: 300,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  variableWidth: true
+			});
+		});
 	</script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
