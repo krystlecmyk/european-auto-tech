@@ -214,11 +214,13 @@ font-family: 'Oswald', sans-serif;
 font-weight:bold;	
 font-size:24px;
 margin-bottom:0;
+text-align:center;
 }
 
 .employee-title{
 font-family: 'Oswald', sans-serif;
 font-weight:300;	
+text-align:center;
 }
 
 .most-important-small-text{

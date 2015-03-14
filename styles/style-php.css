@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+background-color:#ff0000;	
+}
+
+p{
+font-family: 'Oswald', sans-serif;
+font-weight:300;
+font-size:74px;
+color:white;
+text-align:center;
+margin-top:203px;	
+}
+
+img{
+width:300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
